@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Products</title>
+<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="stylesheets/base.css">
+	<link rel="stylesheet" href="stylesheets/skeleton.css">
+	<link rel="stylesheet" href="stylesheets/layout.css">
+</head>
+<body>
+<div class="container">
+		<div class="six columns">
+    <h1>PRODUCTS</h1>
+</div>
+
+<div id="nav" class="ten columns">
+    <ul>
+        <li><a href="file:///C:/Users/psean/workspace2/trial1/WebContent/index.html">Home</a></li>
+        <li><a href="file:///C:/Users/psean/workspace2/trial1/WebContent/Aboutus.html">About US</a></li>
+        <li><a href="file:///C:/Users/psean/workspace2/trial1/WebContent/Products.html">Products</a></li>
+        <li><a href="file:///C:/Users/psean/workspace2/trial1/WebContent/ContactUS.html">Contact US</a></li>
+        <li><a href="file:///C:/Users/psean/workspace2/trial1/WebContent/Blogs.html">Blogs</a></li>
+    </ul>
+</div>
+</div>
+<p style = "strong"> APPS: IN PROGRESS  </p>
+
+<canvas id="myCanvas" width="200" height="100"
+style="border:1px solid #000000;">
+</canvas>
+<script>
+var c=document.getElementById("myCanvas");
+var ctx=c.getContext("2d");
+ctx.fillStyle="#00FFFF";
+ctx.fillRect(0,0,150,75);
+ctx.fillStyle ="#000000"
+	ctx.beginPath();
+ctx.arc(95,50,20,0,2*Math.PI);
+ctx.stroke();
+</script>
+<button type="button" onclick="alert('CONGRATS YOU WON!')">Click Me!</button>
+</body>
+</html>
